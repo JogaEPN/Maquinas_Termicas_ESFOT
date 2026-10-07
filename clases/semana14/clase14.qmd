@@ -1,0 +1,31 @@
+---
+title: "Clase 14: Ciclos Otto y Diesel: ejercicios"
+subtitle: "Aplicación y ejercicios de los ciclos Otto y Diesel"
+author: "Jonathan Loor"
+---
+
+::: {.learning-outcomes}
+## Resultados de aprendizaje
+
+Al finalizar esta clase, el estudiante estará en capacidad de:
+
+- Resolver ejercicios de ciclos Otto y Diesel.
+- Determinar propiedades en los estados principales del ciclo.
+:::
+
+## Continuación de la unidad
+
+Esta clase corresponde a una continuación indicada en el material fuente. El contenido se desarrollará a partir de la clase precedente y de los recursos complementarios disponibles.
+
+## Recursos complementarios
+
+- [Clase 14.txt](recursos/Clase%2014.txt)
+
+
+::: {.key-ideas}
+## Ideas clave
+
+- Identifique siempre el **sistema**, los **datos conocidos** y las **propiedades requeridas** antes de plantear ecuaciones.
+- Utilice unidades consistentes y represente los estados o procesos mediante el diagrama termodinámico apropiado cuando corresponda.
+- Relacione cada ecuación con el comportamiento físico del equipo o proceso analizado.
+:::

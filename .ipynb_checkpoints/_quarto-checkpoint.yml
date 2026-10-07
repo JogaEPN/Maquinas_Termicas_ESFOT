@@ -1,0 +1,101 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Máquinas Térmicas"
+  page-navigation: true
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: index.qmd
+        text: "Inicio"
+      - section: "Semana 1"
+        contents:
+          - href: clases/semana01/clase01.qmd
+            text: "Clase 01"
+      - section: "Semana 2"
+        contents:
+          - href: clases/semana02/clase02.qmd
+            text: "Clase 02"
+      - section: "Semana 3"
+        contents:
+          - href: clases/semana03/clase03.qmd
+            text: "Clase 03"
+      - section: "Semana 4"
+        contents:
+          - href: evaluaciones/semana04.qmd
+            text: "Evaluación 1"
+      - section: "Semana 5"
+        contents:
+          - href: clases/semana05/clase05.qmd
+            text: "Clase 05"
+      - section: "Semana 6"
+        contents:
+          - href: clases/semana06/clase06.qmd
+            text: "Clase 06"
+      - section: "Semana 7"
+        contents:
+          - href: clases/semana07/clase07.qmd
+            text: "Clase 07"
+      - section: "Semana 8"
+        contents:
+          - href: evaluaciones/semana08.qmd
+            text: "Evaluación 2"
+      - section: "Semana 9"
+        contents:
+          - href: clases/semana09/clase09.qmd
+            text: "Clase 09"
+      - section: "Semana 10"
+        contents:
+          - href: clases/semana10/clase10.qmd
+            text: "Clase 10"
+      - section: "Semana 11"
+        contents:
+          - href: clases/semana11/clase11.qmd
+            text: "Clase 11"
+      - section: "Semana 12"
+        contents:
+          - href: evaluaciones/semana12.qmd
+            text: "Evaluación 3"
+      - section: "Semana 13"
+        contents:
+          - href: clases/semana13/clase13.qmd
+            text: "Clase 13"
+      - section: "Semana 14"
+        contents:
+          - href: clases/semana14/clase14.qmd
+            text: "Clase 14"
+      - section: "Semana 15"
+        contents:
+          - href: clases/semana15/clase15.qmd
+            text: "Clase 15"
+      - section: "Semana 16"
+        contents:
+          - href: evaluaciones/semana16.qmd
+            text: "Evaluación 4"
+      - section: "Material complementario"
+        contents:
+          - href: recursos.qmd
+            text: "Recursos"
+          - href: bibliografia.qmd
+            text: "Bibliografía"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "Contenido"
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    lightbox: true
+
+    include-after-body:
+      - boton-pdf.html
+      - paneles.html
+
+execute:
+  freeze: auto

@@ -1,0 +1,59 @@
+{
+  "bibliografia.qmd": {
+    "bibliografia.html": "2239a54b"
+  },
+  "clases/semana01/clase01.qmd": {
+    "clase01.html": "7811f2ae"
+  },
+  "clases/semana02/clase02.qmd": {
+    "clase02.html": "0bea2fc6"
+  },
+  "clases/semana03/clase03.qmd": {
+    "clase03.html": "db45c8da"
+  },
+  "clases/semana05/clase05.qmd": {
+    "clase05.html": "d745e4e9"
+  },
+  "clases/semana06/clase06.qmd": {
+    "clase06.html": "0d9cf918"
+  },
+  "clases/semana07/clase07.qmd": {
+    "clase07.html": "30421c4b"
+  },
+  "clases/semana09/clase09.qmd": {
+    "clase09.html": "fbc270df"
+  },
+  "clases/semana10/clase10.qmd": {
+    "clase10.html": "c2c4f918"
+  },
+  "clases/semana11/clase11.qmd": {
+    "clase11.html": "ef5267c4"
+  },
+  "clases/semana13/clase13.qmd": {
+    "clase13.html": "253f4251"
+  },
+  "clases/semana14/clase14.qmd": {
+    "clase14.html": "3e83d8c8"
+  },
+  "clases/semana15/clase15.qmd": {
+    "clase15.html": "964b7b6c"
+  },
+  "evaluaciones/semana04.qmd": {
+    "semana04.html": "c4202931"
+  },
+  "evaluaciones/semana08.qmd": {
+    "semana08.html": "aadcfbf3"
+  },
+  "evaluaciones/semana12.qmd": {
+    "semana12.html": "6ee352c6"
+  },
+  "evaluaciones/semana16.qmd": {
+    "semana16.html": "95b28a25"
+  },
+  "index.qmd": {
+    "index.html": "0e792bfc"
+  },
+  "recursos.qmd": {
+    "recursos.html": "ec33eadc"
+  }
+}

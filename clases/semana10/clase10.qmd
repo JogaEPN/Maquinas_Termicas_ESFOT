@@ -1,0 +1,31 @@
+---
+title: "Clase 10: Ciclo Rankine real: continuación"
+subtitle: "Continuación y ejercicios del ciclo Rankine real"
+author: "Jonathan Loor"
+---
+
+::: {.learning-outcomes}
+## Resultados de aprendizaje
+
+Al finalizar esta clase, el estudiante estará en capacidad de:
+
+- Profundizar el análisis del ciclo Rankine real.
+- Resolver ejercicios integrando propiedades y balances de energía.
+:::
+
+## Continuación de la unidad
+
+Esta clase corresponde a una continuación indicada en el material fuente. El contenido se desarrollará a partir de la clase precedente y de los recursos complementarios disponibles.
+
+## Recursos complementarios
+
+- [clase 10 Ciclo rankine real.txt](recursos/clase%2010%20Ciclo%20rankine%20real.txt)
+
+
+::: {.key-ideas}
+## Ideas clave
+
+- Identifique siempre el **sistema**, los **datos conocidos** y las **propiedades requeridas** antes de plantear ecuaciones.
+- Utilice unidades consistentes y represente los estados o procesos mediante el diagrama termodinámico apropiado cuando corresponda.
+- Relacione cada ecuación con el comportamiento físico del equipo o proceso analizado.
+:::

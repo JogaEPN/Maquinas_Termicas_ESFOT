@@ -1,0 +1,18 @@
+---
+title: "Evaluación 2"
+subtitle: "Intercambiadores de calor, bombas y turbinas"
+---
+
+## Evaluación
+
+Esta semana corresponde a la **evaluación 2** de la asignatura de Máquinas Térmicas.
+
+El documento de referencia utilizado para estructurar los contenidos y el nivel de aplicación de esta evaluación se conserva dentro de los recursos del proyecto.
+
+[Consultar evaluación de referencia](../recursos/evaluaciones/2da evaluación MT V01.pdf)
+
+::: {.callout-note}
+## Preparación
+
+Revise los conceptos, diagramas termodinámicos, identificación de estados, propiedades y procedimientos desarrollados en las clases correspondientes antes de resolver los ejercicios de evaluación.
+:::

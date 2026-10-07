@@ -1,0 +1,142 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  /* =====================================================
+     PANEL IZQUIERDO
+     ===================================================== */
+
+  const sidebarTitle = document.querySelector(".sidebar-title");
+
+  if (sidebarTitle) {
+
+    const leftWrapper = document.createElement("div");
+    leftWrapper.className = "sidebar-title-wrapper";
+
+    sidebarTitle.parentNode.insertBefore(leftWrapper, sidebarTitle);
+    leftWrapper.appendChild(sidebarTitle);
+
+    const btnIzquierdo = document.createElement("button");
+
+    btnIzquierdo.className =
+      "panel-toggle-button panel-toggle-left";
+
+    btnIzquierdo.innerHTML = "‹";
+
+    btnIzquierdo.title =
+      "Ocultar navegación";
+
+    leftWrapper.appendChild(btnIzquierdo);
+
+    btnIzquierdo.addEventListener("click", function () {
+      document.body.classList.add("hide-left-panel");
+    });
+
+  }
+
+
+  /* =====================================================
+     PANEL DERECHO
+     ===================================================== */
+
+  const tocTitle =
+    document.querySelector("#toc-title") ||
+    document.querySelector(".toc-title");
+
+  if (tocTitle) {
+
+    const rightWrapper = document.createElement("div");
+
+    rightWrapper.className =
+      "toc-title-wrapper";
+
+    tocTitle.parentNode.insertBefore(
+      rightWrapper,
+      tocTitle
+    );
+
+    rightWrapper.appendChild(tocTitle);
+
+    const btnDerecho =
+      document.createElement("button");
+
+    btnDerecho.className =
+      "panel-toggle-button panel-toggle-right";
+
+    btnDerecho.innerHTML = "›";
+
+    btnDerecho.title =
+      "Ocultar índice";
+
+    rightWrapper.appendChild(btnDerecho);
+
+    btnDerecho.addEventListener(
+      "click",
+      function () {
+        document.body.classList.add(
+          "hide-right-panel"
+        );
+      }
+    );
+
+  }
+
+
+  /* =====================================================
+     BOTÓN PARA RECUPERAR PANEL IZQUIERDO
+     ===================================================== */
+
+  const restoreLeft =
+    document.createElement("button");
+
+  restoreLeft.className =
+    "restore-panel restore-left";
+
+  restoreLeft.innerHTML = "›";
+
+  restoreLeft.title =
+    "Mostrar navegación";
+
+  restoreLeft.addEventListener(
+    "click",
+    function () {
+
+      document.body.classList.remove(
+        "hide-left-panel"
+      );
+
+    }
+  );
+
+  document.body.appendChild(restoreLeft);
+
+
+  /* =====================================================
+     BOTÓN PARA RECUPERAR PANEL DERECHO
+     ===================================================== */
+
+  const restoreRight =
+    document.createElement("button");
+
+  restoreRight.className =
+    "restore-panel restore-right";
+
+  restoreRight.innerHTML = "‹";
+
+  restoreRight.title =
+    "Mostrar índice";
+
+  restoreRight.addEventListener(
+    "click",
+    function () {
+
+      document.body.classList.remove(
+        "hide-right-panel"
+      );
+
+    }
+  );
+
+  document.body.appendChild(restoreRight);
+
+});
+</script>

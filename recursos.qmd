@@ -1,0 +1,25 @@
+---
+title: "Recursos"
+---
+
+## Material complementario
+
+En esta sección se conservan los archivos fuente y materiales complementarios utilizados para construir el recurso de la asignatura.
+
+### Presentaciones originales
+
+Las presentaciones se encuentran en `recursos/presentaciones/`.
+
+### Evaluaciones de referencia
+
+Las evaluaciones utilizadas para definir el nivel de profundidad y aplicación se encuentran en `recursos/evaluaciones/`.
+
+### Material complementario
+
+Los ejercicios y documentos adicionales se encuentran en `recursos/complementarios/`.
+
+::: {.callout-note}
+## Reemplazo de imágenes
+
+Las imágenes de cada clase se encuentran organizadas en `imagenes/semanaXX/`. Para sustituir una figura sin modificar el archivo `.qmd`, reemplace el archivo conservando exactamente el mismo nombre y extensión.
+:::

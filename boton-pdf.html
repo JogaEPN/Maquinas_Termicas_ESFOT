@@ -1,0 +1,31 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const toc = document.querySelector("#TOC");
+
+  if (!toc) return;
+
+  const contenedor = document.createElement("div");
+  contenedor.className = "pdf-export-container";
+
+  const boton = document.createElement("button");
+  boton.className = "pdf-export-button";
+
+  boton.innerHTML = `
+    <span class="pdf-icon">⇩</span>
+    <span>Guardar como PDF</span>
+  `;
+
+  boton.addEventListener("click", function () {
+    window.print();
+  });
+
+  contenedor.appendChild(boton);
+
+  toc.parentNode.insertBefore(
+    contenedor,
+    toc.nextSibling
+  );
+
+});
+</script>

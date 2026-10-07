@@ -1,0 +1,13 @@
+---
+title: "Bibliografía"
+---
+
+## Bibliografía de referencia
+
+- Çengel, Y. A. y Boles, M. A. *Termodinámica*. McGraw-Hill.
+- Moran, M. J., Shapiro, H. N. et al. *Fundamentos de termodinámica técnica*.
+- Material docente y tablas de propiedades termodinámicas utilizadas en las presentaciones de la asignatura.
+
+::: {.callout-note}
+Las ediciones específicas y recursos complementarios pueden ajustarse de acuerdo con la bibliografía oficial del sílabo vigente de la asignatura.
+:::
